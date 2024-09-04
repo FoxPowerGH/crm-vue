@@ -9,6 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@formkit/themes": "^1.6.5",
+    "@formkit/vue": "^1.6.5",
+    "axios": "^1.7.7",
+    "json-server": "^1.0.0-beta.2",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
   },
