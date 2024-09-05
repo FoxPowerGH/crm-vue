@@ -8,8 +8,15 @@
         }
     })
 
+
+    defineEmits(['actualizar-estado', 'eliminar-cliente'])
+
     const nombreCliente = computed(() => {
         return props.cliente.nombre + ' ' + props.cliente.apellido
+    })
+
+    const estadoCliente = computed(() => {
+        return props.cliente.estado
     })
 
 </script>
@@ -25,16 +32,26 @@
             <p class="text-gray-600">{{ cliente.cargo }}</p>
         </td>
         <td class="whitespace-nowrap px-3 py-4 text-sm">
-
+            <button
+                class="inlie-flex rounded-full px-2 text-xs font-semibold leading-5"
+                :class="[estadoCliente ? 'bg-gray-100 text-green-800' : 'bg-red-100 text-red-800']"
+                @click="$event = $emit('actualizar-estado',
+                    {id: cliente.id, estado: cliente.estado }  )"
+            >
+                {{ estadoCliente ? 'Activo' : 'Inactivo' }}
+            </button>
+            
         </td>
         <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500 ">
             <RouterLink
-                to="/"
+                :to="{ name: 'editar-cliente', params: { id: cliente.id}}"
                 class="text-indigo-600 hover:text-indigo-900 mr-5">Editar
             </RouterLink>
             
             <button 
-                class="text-red-600 hover:text-red-900 ">
+                class="text-red-600 hover:text-red-900 "
+                @click="$event => $emit('eliminar-cliente', cliente.id)"
+                >
                 Eliminar
             </button>
         </td>

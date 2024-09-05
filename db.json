@@ -1,79 +1,6 @@
 {
   "clientes": [
     {
-      "id": "9ee5",
-      "nombre": "Jorge",
-      "apellido": "Rodriguez",
-      "email": "jorge.rodriguez08@me.com",
-      "telefono": "507-303-4278"
-    },
-    {
-      "id": "9cc5",
-      "nombre": "Javier",
-      "apellido": "Garrido",
-      "email": "jgarridos@mai.com",
-      "telefono": "507-237-2444",
-      "empresa": "Empresa",
-      "cargo": "CTO"
-    },
-    {
-      "id": "8d3f",
-      "nombre": "Jorge",
-      "apellido": "Rodriguez",
-      "email": "jorge.rodriguez08@me.com",
-      "telefono": "909-764-8282",
-      "empresa": "RW Sales",
-      "cargo": "CTO"
-    },
-    {
-      "id": "3416",
-      "nombre": "Vianka",
-      "apellido": "Rodriguez",
-      "email": "vrodriguez@hotmail.com",
-      "telefono": "507-684-2579",
-      "empresa": "Caterpillar",
-      "cargo": "CFO"
-    },
-    {
-      "id": "7878",
-      "nombre": "Jorge",
-      "apellido": "Rodriguez",
-      "email": "jorge.rodriguez08@me.com",
-      "telefono": "333-222-8888",
-      "empresa": "XXXXXX",
-      "cargo": "XXXXX",
-      "estado": 1
-    },
-    {
-      "id": "7682",
-      "nombre": "Jorge",
-      "apellido": "Rodriguez",
-      "email": "foxpower@gmail.com",
-      "telefono": "909-764-8282",
-      "empresa": "RW Sales",
-      "cargo": "CFO",
-      "estado": 1
-    },
-    {
-      "id": "8953",
-      "nombre": "Jorge",
-      "apellido": "Rodriguez",
-      "email": "jorge.rodriguez08@me.com",
-      "telefono": "507-303-4278",
-      "empresa": "RW Sales",
-      "cargo": "COO",
-      "estado": 1
-    },
-    {
-      "id": "9414",
-      "nombre": "Siau",
-      "apellido": "Loo",
-      "email": "sloo@atlasbank.com",
-      "telefono": "507-237-2444",
-      "empresa": "Atlas Bank (PANAMA)",
-      "estado": 1
-    },
-    {
       "id": "c2de",
       "nombre": "Siau",
       "apellido": "Loo",
@@ -91,7 +18,7 @@
       "telefono": "507-456-8793",
       "empresa": "Atlas Bank (PANAMA)",
       "cargo": "Asistente de Operaciones",
-      "estado": 1
+      "estado": true
     },
     {
       "id": "60cb",
